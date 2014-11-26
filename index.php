@@ -86,7 +86,7 @@
 								<a href="#">
 									<i class="icon-fire red"></i>
 									<strong>Kitchen</strong>
-								<span id='B1'></span>	
+								<span id='A4'></span>	
 									</a>
 							</li>
 							<li>
@@ -397,8 +397,26 @@
        if(topic == A1topic){                                                                                                                                                                                      
        $('#A1').html(payload);                                                                                                                                                                                     
         }                                                                                                                                                                                                          
-        if(topic == B1topic){                                                                                                                                                                                      
+       if(topic == A2topic){                                                                                                                                                                                      
+       $('#A2').html(payload);                                                                                                                                                                                     
+        }                                                                                                                                                                                                          
+       if(topic == A3topic){                                                                                                                                                                                      
+       $('#A3').html(payload);                                                                                                                                                                                     
+        }                                                                                                                                                                                                          
+       if(topic == A4topic){                                                                                                                                                                                      
+       $('#A4').html(payload);                                                                                                                                                                                     
+        }                                                                                                                                                                                                          
+       if(topic == A5topic){                                                                                                                                                                                      
+       $('#A5').html(payload);                                                                                                                                                                                     
+        }                                                                                                                                                                                                          
+       if(topic == B1topic){                                                                                                                                                                                      
        $('#B1').html(payload);                                                                                                                                                                                     
+        }                                                                                                                                                                                                          
+       if(topic == B2topic){                                                                                                                                                                                      
+       $('#B2').html(payload);                                                                                                                                                                                     
+        }                                                                                                                                                                                                          
+        if(topic == B3topic){                                                                                                                                                                                      
+       $('#B3').html(payload);                                                                                                                                                                                     
         }                                                                                                                                                                                                          
         if(topic == IMeantopic){                                                                                                                                                                                   
        $('#IMean').html(payload);                                                                                                                                                                                  
